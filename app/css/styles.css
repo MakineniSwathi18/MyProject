@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+p, .row{
+    margin:0;
+}
+body {
+    background-color: #c3cfd6;
+}
+.menu{
+    text-align:center;
+       background-color: #FFF;
+}
+.wrapper{
+    width:320px;
+    margin:0 auto;
+    border:1px solid #999;
+}
+/* Welcome section starts*/
+.welcome-section{
+    background-color:#fff;
+    padding:20px 0;
+    color: #666;
+}
+
+.welcome-section h1 {
+    padding: 0 10px;
+}
+.welcome-section .col-xs-12 {
+    padding: 0;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+    line-height: 1.5;
+}
+h3{
+  font-size: 16px;
+}
+.highlight{
+    color:#40b5ca;
+}
+.glyphicon {
+    color: #666;
+}
+.profile{
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+    float: right;
+}
+.data-container .col-xs-6 p {
+    padding: 4px;
+}
+.data-container .row:first-child .col-xs-12 {
+    border-top: 1px solid #ccc;
+}
+.data-container .col-xs-6 {
+    border-bottom: 1px solid #ccc;
+}
+.data-container .col-xs-6:first-child {
+    border-right: 1px solid #ccc;
+}
+.data-container  .row .col-xs-12 {
+    padding: 0;
+}
+.number-hightlight{
+    font-size:20px;
+}
+.sub-title{
+    font-size:12px;
+    color: #867d7d;
+}
+
+/* Welcome section ends*/
+
+/* Profile section starts*/
+.profile-section {
+    background-color: #145a8c;
+    color:#fff;
+}
+.profile-section .glyphicon {
+    color: #FFF;
+}
+.profile-section  header{
+   min-height: 150px;
+    background: url(../images/profile.jpg) 0 0 no-repeat;
+    background-size: cover;
+        padding: 10px;
+}
+
+.profile-section  .data-container{
+    text-align:center;
+}
+.profile-section .glyphicon-nav:after { 
+  background: #fff;
+}
+.profile-section  h1{
+    font-size:20px;
+}
+.profile-section header  .sub-title {
+    margin-top: 55px;
+}
+
+ .data-container .col-xs-4 p {
+    padding: 4px;
+}
+.data-container .row:first-child .col-xs-12 {
+    border-top: 1px solid #ccc;
+}
+.profile-section .col-xs-4 {
+    border-left: 1px solid #ccc;
+}
+.profile-section .col-xs-12 .col-xs-4:first-child  {
+    border-left: 0;
+}
+.profile-section  .data-container .row .col-xs-12 {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.profile-section  .data-container .row .col-xs-12:first-child  {  
+    border-bottom: 0;
+     border-top: 0;
+}
+.profile-section  .data-container .sub-title {
+    color: #ccc;
+}
+.goals-container{
+    padding:20px;
+}
+.goals-container h3{
+    font-size:14px;
+    color:#ccc;
+}
+  .progress-50{
+      width:50%;
+  }
+  .progress-40{
+      width:40%;
+  }
+  .progress-80{
+      width:80%;
+  }
+.progress {
+    height: 3px;  
+    background-color: #2f7eb7;
+    margin-bottom: 0;
+}
+  .progress-bar {  
+    height: 3px;    
+    background-color: #fff;
+        box-shadow: 1px 0px 14px 2px #e8dddd;
+  }
+  .goals-container .col-xs-6,.goals-container .col-xs-12{
+      padding:0;
+      margin:0;
+  }
+  .goals-container .col-xs-12 {
+    margin-top: 20px;
+}
+.sub-dec{
+    text-align:right;
+    color:#ccc;
+}
+.label-size{
+    font-size:10px;
+    margin-top:20px;
+}
+.label-size span{
+    display:inline-block;
+    margin-left:10px;
+}
+  /* Profile section ends*/
+
+  /*Weight starts*/
+
+.weight-container {
+    background-color: #FFF;
+       padding: 10px 0;
+       position:relative;
+}
+.largeWeight {
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.date {
+    color: #888;
+}
+.measure{
+    color:#999;
+    font-size: 20px;
+}
+.largeWeight .measure {
+     font-size: 20px;
+     }
+.heading{
+    color:#aaa;
+}
+.weight-number {
+    color: #777;
+     font-size: 21px;
+}
+.largeWeight .weight-number  {
+      font-size: 60px;
+     }
+.rightAlign{
+    text-align: right;
+}
+.graph-labels{
+    color:#777;
+      margin: 20px 0;
+}
+
+.row.avgWeight{
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #bde0f5;
+    padding-bottom: 20px;
+}
+.row.avgWeight  .heading{
+  color:#555;
+}
+canvas {
+    width: 328px !important;
+    margin-left: -10px !important;
+}
+.goalWeight{
+    margin:10px 0;
+}
+
+  /*Weight ends*/
